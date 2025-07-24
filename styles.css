@@ -45,16 +45,21 @@ header .title-left{
     font-size: 34px;
     color: #9403FD;
 }
-.purple-button{
-    background-color: #9403FD;
-    padding: 16px;
-    border: none;
-    border-radius: 10px;
-    color: white;
+.purple-button {
+  background-color: #9403FD;
+  padding: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.purple-button:hover{
-    cursor: pointer;
+
+.purple-button:hover {
+  transform: scale(1.15);
+  box-shadow: 0 8px 15px rgba(148, 3, 253, 0.4);
 }
+
 .bottom-section{
     display: flex;
     align-items: center;
@@ -216,4 +221,14 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 20px;
+}
+.footer-title {
+    font-size: 100px;
+    font-weight: 800;
+    background: linear-gradient(90deg, #713c94 60%, #256583 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent; /* Ensure this fallback is present */
+    display: inline-block; /* Required for correct rendering */
+    margin-bottom: -80px;
 }
