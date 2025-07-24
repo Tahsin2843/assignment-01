@@ -144,3 +144,36 @@ header .title-left{
 .main-4 img{
     border-radius: 48px;
 }
+.main-5{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.main-5-columns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    width: 1140px;
+}
+.column2 p{
+    font-size: 18px;
+}
+.column2 input{
+    width: 497px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid rgb(209, 204, 204);
+}
+
+.column2 input::placeholder{
+    padding: 20px;
+    font-size: 20px;
+}
+#messageBox{
+    height: 140px;
+}
+.column2-button{
+    width: 503px;
+    height: 62px;
+}
