@@ -1,5 +1,13 @@
 /* css for header */
 
+.open-sans-inter {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 .open-sans-logo {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -43,6 +51,9 @@ header .title-left{
     border: none;
     border-radius: 10px;
     color: white;
+}
+.purple-button:hover{
+    cursor: pointer;
 }
 .bottom-section{
     display: flex;
@@ -107,8 +118,12 @@ header .title-left{
 .number-column p{
     font-size: 80px;
 }
+.number-column h4{
+    margin-top: -60px;
+}
 .main-3-containers {
     display: flex;
+    max-width: 70;
     flex-direction: column;
     align-items: center;  
     justify-content: space-between;  
@@ -125,6 +140,9 @@ header .title-left{
 
 .user-profile{
     padding: 20px;
+    background-color: white;
+    margin-bottom: 40px;
+    border-radius: 40px;
 }
 .user-details{
     display: flex;
@@ -176,4 +194,26 @@ header .title-left{
 .column2-button{
     width: 503px;
     height: 62px;
+}
+footer{
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 140px;
+    max-width: 1140px;
+}
+.footer-title{
+    font-size: 100px;
+    margin-bottom: -80px;
+}
+.footer-sections p{
+    color: rgba(137, 135, 161, 1);
+}
+.footer-sections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
