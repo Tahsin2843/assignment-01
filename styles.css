@@ -20,7 +20,6 @@
     background-position: center;
     width: 100%;
     height: 100vh;
-
 }
 
 .top-section{
@@ -78,4 +77,33 @@ header .title-left{
 }
 .main-1 div img{
     border-radius: 20px ;
+}
+.main-2-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: space-between;  
+    
+    margin: 160px;
+    border-radius: 20px;
+    background-color: rgba(78, 71, 255, 0.1);
+}
+
+.user-response-title {
+    flex: 1;  
+}
+
+.user-number {
+    flex: 1;  
+    display: flex;
+    justify-content: space-around;   
+    align-items: center;  
+    gap: 80px;
+}
+
+.number-column {
+    text-align: center;  
+}
+.number-column p{
+    font-size: 80px;
 }
